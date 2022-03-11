@@ -78,6 +78,7 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     borderRadius: 10,
     backgroundColor: '#F7F7F7',
+    textAlign: 'center',
   },
 });
 

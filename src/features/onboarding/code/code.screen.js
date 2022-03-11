@@ -16,18 +16,6 @@ class Phone extends React.Component {
     };
   }
 
-  // onChangePhone(number) {
-  //   let isDisabled = true;
-  //   this.setState({
-  //     number,
-  //   });
-  //   if (number.length === 10) {
-  //     isDisabled = false;
-  //   }
-  //   this.setState({
-  //     isDisabled,
-  //   });
-  // }
   onFocus() {
     this.setState({
       borderColor1: '#FF3637',
@@ -69,7 +57,7 @@ class Phone extends React.Component {
       <View style={styles.main}>
         <Text style={styles.title}>Confirmez votre numéro !</Text>
         <Text style={styles.subtitle}>
-          Entrez le code envoyé sur votr numéro
+          Entrez le code envoyé sur votre numéro
         </Text>
         <View style={styles.codeContainer}>
           <View style={styles.inputContainer}>
