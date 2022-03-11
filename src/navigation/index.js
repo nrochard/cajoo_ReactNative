@@ -9,12 +9,31 @@ const Stack = createNativeStackNavigator();
 const rootContainer = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator
-        screenOptions={{
-          headerShown: false,
-        }}>
-        <Stack.Screen name="landing" component={Landing} />
-        <Stack.Screen name="login" component={Login} />
+      <Stack.Navigator>
+        <Stack.Screen
+          name="landing"
+          component={Landing}
+          options={{
+            headerShown: false,
+          }}
+        />
+        <Stack.Screen
+          name="login"
+          component={Login}
+          options={{
+            title: 'Connexion',
+            headerTitleStyle: {
+              color: '#fff',
+              fontFamily: 'EricaOne-Regular',
+              fontSize: 18,
+            },
+            headerStyle: {
+              backgroundColor: '#ff3637',
+            },
+            headerBackTitle: '',
+            headerTintColor: 'white',
+          }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
