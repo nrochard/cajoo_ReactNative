@@ -66,8 +66,7 @@ const rootContainer = () => {
             headerStyle: {
               backgroundColor: '#ff3637',
             },
-            headerBackTitle: '',
-            headerTintColor: 'transparent',
+            headerBackVisible: false,
           }}
         />
       </Stack.Navigator>
