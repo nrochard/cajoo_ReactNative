@@ -1,4 +1,3 @@
-import React from 'react';
 import {StyleSheet, Dimensions} from 'react-native';
 
 const {width, height} = Dimensions.get('window');
@@ -8,6 +7,7 @@ const styles = StyleSheet.create({
     height: height,
     width,
     alignItems: 'center',
+    backgroundColor: 'white',
   },
   logo: {
     width: 200,
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     marginTop: 250,
     backgroundColor: '#ff3637',
     width: '90%',
-    height: 40,
+    height: 50,
     alignItems: 'center',
     justifyContent: 'center',
     overflow: 'hidden',
@@ -52,8 +52,6 @@ const styles = StyleSheet.create({
     color: '#ff3637',
     textDecorationLine: 'underline',
     fontFamily: 'Inter-Black',
-    /*textAlign: 'center',
-      flex:1*/
   },
 });
 
